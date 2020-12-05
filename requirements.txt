@@ -1,0 +1,12 @@
+numpy
+jsonlines
+matplotlib
+scikit-learn
+jupyterlab
+wandb
+torchaudio
+soundfile
+pandas
+librosa
+matplotlib
+googledrivedownloader
