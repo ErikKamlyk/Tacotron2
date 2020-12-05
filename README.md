@@ -29,9 +29,11 @@ To setup docker container run ./build_image.sh and ./run_container.sh
 ## Train
 
 run "train.py number_of_epochs", for example "train.py 10"
+
 Data will be logged in wandb.
 
 ## Inference
 
 run "inference.py "text to generate""
+
 Wav file will be saved in gen.wav as well as in wandb.
