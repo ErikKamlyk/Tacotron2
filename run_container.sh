@@ -1,4 +1,5 @@
 docker run -it \
+    --gpus all \
     --net=host \
     --ipc=host \
     --detach \
