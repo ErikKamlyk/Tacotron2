@@ -34,6 +34,8 @@ Data will be logged in wandb.
 
 ## Inference
 
+Download the final model from https://drive.google.com/file/d/1Fv_vFSkW-8RFgNoyugrf3a6fP202PYhM/view?usp=sharing
+
 run "inference.py "text to generate""
 
 Wav file will be saved in gen.wav as well as in wandb.
