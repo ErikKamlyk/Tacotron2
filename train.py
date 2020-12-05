@@ -9,6 +9,7 @@ import os
 import time
 from IPython import display
 from dataclasses import dataclass
+import sys
 
 import torch
 from torch import nn
@@ -177,4 +178,5 @@ def run_training(epochs):
         torch.save(to_save, name)
         wandb.log({"Train loss": np.mean(train_losses), "Val loss": np.mean(val_losses), "Attention loss": np.mean(attn_losses)}, step=epoch)
         
-run_training(10)
+epochs = int(sys.argv[1])
+run_training(epochs)
